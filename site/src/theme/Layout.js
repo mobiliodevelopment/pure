@@ -10,7 +10,6 @@ import Footer from '../../components/Footer';
 // load common custom css
 import '../../../build/pure-min.css';
 import '../../../build/grids-responsive-min.css';
-import '../../static/css/main-grid.css';
 import '../../static/css/main.css';
 
 let jsLoaded = false;
@@ -81,6 +80,7 @@ function Layout(props) {
                     <meta property="og:url" content={siteUrl + permalink} />
                 )}
                 <meta name="twitter:card" content="summary_large_image" />
+                <meta name="google-site-verification" content="4Vwl0ECmIrHsoK0rSTN3orQJLvIKWfcQCq4IeHCYZOY" />
 
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200" />
             </Head>

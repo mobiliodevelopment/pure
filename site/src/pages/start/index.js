@@ -36,7 +36,7 @@ function Start() {
             <div className="content">
                 <aside>
                     <p>
-                      Alternatively, you can <a href={`https://github.com/pure-css/pure/archive/v${pureVersion}.zip`}>download Pure</a>, or <a href="/customize/">check out other CDNs</a> that host Pure.
+                      Alternatively, <a href="/customize/">check out other CDNs</a> that host Pure or you can install Pure via a <a href="/tools/">package manager</a>.
                     </p>
                 </aside>
 
@@ -147,6 +147,12 @@ function Start() {
                                 <td className="mq-table-mq highlight"><code>@media screen and (min-width: 80em)</code></td>
                                 <td>≥ <b>1280px</b></td>
                                 <td><code>.pure-u-<b>xl</b>-*</code></td>
+                            </tr>
+                            <tr>
+                                <td className="highlight"><b><code>xxl</code></b></td>
+                                <td className="mq-table-mq highlight"><code>@media screen and (min-width: 120em)</code></td>
+                                <td>≥ <b>1920px</b></td>
+                                <td><code>.pure-u-<b>xxl</b>-*</code></td>
                             </tr>
                         </tbody>
                     </table>

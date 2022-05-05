@@ -8,17 +8,29 @@ module.exports = {
     baseUrl: '/',
     favicon: 'img/favicon.ico',
     organizationName: 'pure-css',
-    projectName: 'pure-css.github.io',
     plugins: [
-        '@docusaurus/plugin-content-pages',
-        '@docusaurus/plugin-google-analytics',
+        [
+            '@docusaurus/plugin-content-pages',
+            {
+                path: 'src/pages',
+            },
+        ],
+        [
+            '@docusaurus/plugin-google-analytics',
+            {
+                trackingID: 'UA-41480445-1',
+                anonymizeIP: true,
+            },
+        ],
     ],
-    themeConfig: {
-        googleAnalytics: {
-            trackingID: 'UA-41480445-1',
-            anonymizeIP: true,
-        },
-    },
+    projectName: 'pure-css.github.io',
+    scripts: [
+        {
+            src: 'https://kit.fontawesome.com/f7f35653b1.js',
+            defer: true,
+        }
+    ],
+    themes: ['@docusaurus/theme-classic'],
     customFields: {
         PURE_DOWNLOAD_SNIPPET,
         moduleSizes: moduleSizes(),

@@ -173,7 +173,7 @@ module.exports = function (grunt) {
                         'Pure v<%= pkg.version %>',
                         'Copyright 2013 Yahoo!',
                         'Licensed under the BSD License.',
-                        'https://github.com/pure-css/pure/blob/master/LICENSE',
+                        'https://github.com/pure-css/pure/blob/main/LICENSE',
                         '*/\n'
                     ].join('\n')
                 },
@@ -203,7 +203,9 @@ module.exports = function (grunt) {
                         md: 'screen and (min-width: 48em)',     // 768px
                         lg: 'screen and (min-width: 64em)',     // 1024px
                         xl: 'screen and (min-width: 80em)',     // 1280px
-                        xxl: 'screen and (min-width: 120em)'    // 1920px
+                        xxl: 'screen and (min-width: 120em)',    // 1920px
+                        xxxl: 'screen and (min-width: 160em)',    // 2560px
+                        x4k: 'screen and (min-width: 240em)'    // 3840px
                     }
                 }
             }

@@ -9,8 +9,8 @@ A set of small, responsive CSS modules that you can use in every web project.
 
 ## Features
 
-Pure is meant to be a starting point for every website or web app. We take care
-of all the CSS work that every site needs, without making it look cookie-cutter:
+Pure is a starting point for every website or web app. We take care
+of all the CSS work that every site needs without making it look cookie-cutter:
 
 - A responsive grid that can be customized to your needs.
 
@@ -42,10 +42,10 @@ Optionally, you can build Pure from its source on Github. To do this, you'll
 need to have Node.js and npm installed. We use [Grunt][] to build Pure.
 
 ```shell
-$ git clone git@github.com:pure-css/pure.git
-$ cd pure
-$ npm install
-$ grunt
+git clone git@github.com:pure-css/pure.git
+cd pure
+npm install
+grunt
 ```
 
 ### Build Files
@@ -88,10 +88,7 @@ conventions of the files in the `build/` directory follow these rules:
 
 Pure is tested and works in:
 
-- IE 10+
 - Latest Stable: Firefox, Chrome, Safari
-- iOS 12+
-- Android 6+
 
 ## Docs and Website
 
@@ -108,9 +105,9 @@ This software is free to use under the Yahoo! Inc. BSD-3-Clause license.
 See the [LICENSE file][] for license text and copyright information.
 
 [grunt]: http://gruntjs.com/
-[contributing file]: https://github.com/pure-css/pure/blob/master/CONTRIBUTING.md
-[license file]: https://github.com/pure-css/pure/blob/master/LICENSE
+[contributing file]: https://github.com/pure-css/pure/blob/main/CONTRIBUTING.md
+[license file]: https://github.com/pure-css/pure/blob/main/LICENSE
 [normalize.css]: http://necolas.github.io/normalize.css/
 [pure]: http://purecss.io/
-[pure-site]: https://github.com/pure-css/pure/tree/master/site
+[pure-site]: https://github.com/pure-css/pure/tree/main/site
 [started]: https://purecss.io/start/

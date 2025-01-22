@@ -12,11 +12,11 @@ This assumes the following repo's are cloned and `npm` installed:
 
 ## First, check everything
 
-- [ ] **Update local Pure to latest from pure-css/pure#master**
+- [ ] **Update local Pure to latest from pure-css/pure#main**
 
   ```bash
   $ cd pure/
-  $ git pull upstream master
+  $ git pull upstream main
   ```
 
 - [ ] **Build Pure via `grunt`**
@@ -27,29 +27,21 @@ This assumes the following repo's are cloned and `npm` installed:
 
 - [ ] **Review all src/.../tests/manual/ files in target environments, including:**
 
-  - [ ] IE 11
   - [ ] Edge
   - [ ] Chrome
   - [ ] Firefox
   - [ ] Safari
-  - [ ] iOS 10.x
-  - [ ] Android 4.x
-  - [ ] Android 5.x
 
-- [ ] **Review pure-site in target environments with [Pure served locally](https://github.com/pure-css/pure-site/blob/master/README.md#running-with-pure-served-locally)**
+- [ ] **Review pure-site in target environments with [Pure served locally](https://github.com/pure-css/pure-site/blob/main/README.md#running-with-pure-served-locally)**
 
-  - [ ] IE 11
   - [ ] Edge
   - [ ] Chrome
   - [ ] Firefox
   - [ ] Safari
-  - [ ] iOS 10.x
-  - [ ] Android 4.x
-  - [ ] Android 5.x
 
 - [ ] **Review HISTORY.md**
 
-  https://github.com/pure-css/pure/blob/master/HISTORY.md
+  https://github.com/pure-css/pure/blob/main/HISTORY.md
 
   Make sure all the major changes since the last release of Pure are reflected in HISTORY.md entries.
 
@@ -76,13 +68,13 @@ This assumes the following repo's are cloned and `npm` installed:
 
 ## Publish pure to NPM
 
-From the `pure` repo run the following command to publish Pure to NPM. This will ensure `unpkg.com` CDN gets the new files.
+From the `pure` repo run the following command to publish Pure to NPM. This will ensure `jsdelivr.com` CDN gets the new files.
 
 ```bash
 npm publish .
 ```
 
-Verify via https://unpkg.com/purecss@VERSION
+Verify via https://www.jsdelivr.com/package/npm/purecss
 
 ## Draft releases on Github
 
@@ -105,4 +97,4 @@ Now all our files are out there and everything is looking good.
 
 ## Mark repo as pre-release
 
-- [ ] We should mark the version number of the project (in package.json) as 0.6.1-pre for clarity, so there's no mistaking the leading edge of the project from the last release. Commit those changes and push to master.
+- [ ] We should mark the version number of the project (in package.json) as 0.6.1-pre for clarity, so there's no mistaking the leading edge of the project from the last release. Commit those changes and push to main.
